@@ -20,19 +20,19 @@ Recomendo o uso de um ambiente virtual para manter as dependências isoladas.
 
 ### No Windows (PowerShell ou CMD)
 1. **Criar o ambiente virtual:**
-```powershell
+  ```powershell
   python -m venv venv
-```
+  ```
 
 2. **Ativar o ambiente:**
-```powershell
-.\venv\Scripts\activate
-```
+  ```powershell
+  .\venv\Scripts\activate
+  ```
 
 3. **Instalar as dependências:**
-```powershell
-pip install -r requirements.txt
-```
+  ```powershell
+  pip install -r requirements.txt
+  ```
 
 ### No Linux (Ubuntu/Debian/Arch)
 
