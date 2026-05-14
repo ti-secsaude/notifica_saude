@@ -1,4 +1,4 @@
-# Notifica Saude 🚀
+# Notifica Saúde 🚀
 
 Automação para monitorização de atualizações nos portais do DATASUS e CNES.
 
@@ -37,23 +37,24 @@ pip install -r requirements.txt
 ### No Linux (Ubuntu/Debian/Arch)
 
 1. **Instalar suporte a venv (se necessário):**
-*Ubuntu/Debian:* `sudo apt install python3-venv`
+   
+  - *Ubuntu/Debian:* `sudo apt install python3-venv`
 
-2. **Criar o ambiente virtual:**
-```bash
-python3 -m venv venv
-```
+3. **Criar o ambiente virtual:**
+  ```bash
+  python3 -m venv venv
+  ```
 
 3. **Ativar o ambiente:**
-```bash
-source venv/bin/activate
-```
+  ```bash
+  source venv/bin/activate
+  ```
 
 4. **Instalar as dependências:**
-```bash
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
-```
+  ```
 
 > **Nota para Linux:** Para o SCNES (Selenium), certifique-se de ter o navegador instalado (Edge ou Chrome) e o driver correspondente no seu PATH. No Windows, o script já tenta gerenciar isso automaticamente.
 
